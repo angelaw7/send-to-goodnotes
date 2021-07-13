@@ -1,5 +1,5 @@
 # Send to Goodnotes
-Sends downloaded PDFs to Goodnotes -- Running the program will send PDFs to Goodnotes and remove them from the local computer.
+Sends downloaded PDFs to Goodnotes -- Running the program will email PDFs to Goodnotes and remove them from the local computer.
 
 
 ## Getting Started
