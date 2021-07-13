@@ -1,6 +1,22 @@
-# pdfs-to-goodnotes
-Sends downloaded PDFs to Goodnotes via email
+# Send to Goodnotes
+Sends downloaded PDFs to Goodnotes -- Running the program will send PDFs to Goodnotes and remove them from the local computer.
 
-Change email_address, goodnotes_email, password, and directory values.
 
-Keep goodnotes.py in the same directory as the PDFs you want to send. Running the program will automatically send the PDFs to Goodnotes and delete them from the computer.
+## Getting Started
+It is recommended to create another email account as [Less secure app access](https://myaccount.google.com/lesssecureapps "Less secure app access") needs to be on to allow the program to login and send emails through the account.
+
+
+1. Clone the repo
+    ```sh 
+    git clone https://github.com/angelaw7/send-to-goodnotes.git
+    ```
+2. Update config.py
+
+
+## Usage
+
+1. Download PDF(s) into the same directory as goodnotes.py
+2. Run goodnotes.py
+   ```sh
+   python goodnotes.py
+   ```
